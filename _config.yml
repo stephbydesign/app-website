@@ -1,0 +1,3 @@
+markdown: recarpet
+baseurl: /app-website
+exclude: ['visual-style', 'README.md']
