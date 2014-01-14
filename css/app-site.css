@@ -2,6 +2,7 @@
 ---
 {% include css/normalize.css %}
 {% include css/general.css %}
+{% include css/accessibility.css %}
 {% include css/grid.css %}
 {% include css/list-group.css %}
 
