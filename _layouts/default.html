@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tasker</title>
+  <title>Chronolog</title>
 
   <!--Mobile Optimization-->
   <meta name="handhelfriendly" content="true">
@@ -10,10 +10,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!--CSS-->
-  <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/app-site.css" rel="stylesheet">
 
   <!--FONT-->
-  <link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 
   <!--SCRIPT-->
   <script src="{{site.baseurl}}/js/modernizr.js"></script>
@@ -29,17 +29,27 @@
   </ul>
 
   <!-- NAVIGATION -->
-  <header role="banner" id="top">
+  <header role="banner" id="top" class="masthead">
 
-    <nav role="navigation" id="primenav">
-
+    <div class="masthead-top">
+      <h1 class="logo-wrapper"><a href="{{site.baseurl}}/index.html" class="logo"></a></h1>
+      <!--<a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>-->
+    </div>
+<!--
+    <nav role="navigation" id="primenav" class="nav nav-top" data-state="collapsed">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
     </nav>
+-->
   </header>
 
   {{content}}
 
   <footer role="contentinfo">
-
+    <p>©STEPHBYDESIGN 2014.</p>
   </footer>
 
   <!-- SCRIPTS -->

@@ -1,0 +1,185 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font: normal 100%/1.5 'Noto Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+html {
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/*Old Browsers to listen to media queries*/
+@media only screen and (min-width: 320px) {
+  body {
+    max-width: none
+  }
+}
+
+.logo-wrapper {
+    margin: 0;
+    padding: 0;
+
+    font-size: 1em;
+}
+
+.logo {
+    float: left;
+    height: 80px;
+    margin: 1em 10px 0.125em;
+    padding: 0;
+    width: 100%;
+
+    background: transparent url("../img/logo.png") no-repeat left top;
+}
+
+.masthead {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.masthead-top {
+    overflow: hidden;
+    position: relative;
+}
+
+#main {
+    background-color: #f3fffc;
+    padding: 1em 0.5em;
+    position: bottom;
+}
+
+#main h1,
+      p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.reel {
+    display: block;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------------BUY BUTTON */
+.btn {
+    padding: 0.7em 0.9em;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #33f, #339);
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #33f;
+    background-image: linear-gradient(to bottom, #ccc, #666);
+}
+
+.btn-buy {
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #ccc, #666);
+}
+
+.btn-buy:hover {
+    background-color: #3f3;
+    background-image: linear-gradient(to bottom, #3f3, #393);
+}
+
+/*---------------------------------------------------LINKS */
+a,
+a:link,
+a:visited {
+    color: #eee;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    border-color: #ccc;
+
+    color: #fff;
+}
+
+
+/*---------------------------------------------------SCREENSHOTS */
+#screenshots {
+    padding: 1em .5em;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 37em) {
+  #main .unit {
+    display: block;
+  }
+}
+
+/*---------------------------------------------------FEATURES*/
+
+#features {
+    background-color: #f3fffc;
+    padding: 1em 0.5em;
+}
+
+#features li img {
+    display: inline-block;
+}
+
+/*---------------------------------------------------TESTIMONIALS */
+
+/*---------------------------------------------------FOOTER */
+
+footer {
+  background-color: #333;
+  padding: 1.5em 1em;
+
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: .75rem;
+}
+
