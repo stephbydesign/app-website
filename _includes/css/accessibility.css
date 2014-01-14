@@ -1,0 +1,43 @@
+/*
+ * It's okay to remove the `outline` from `:hover` and `:active` but never `:focus`
+ */
+a:hover,
+a:active {
+        outline: none;
+}
+
+/*
+ * The `:focus` state is extremely important for keyboard users.
+ * It helps them see which link is currently selected.
+ */
+a:focus {
+        outline: 3px solid #000;
+}
+
+.skiplinks {
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+        padding: 0.5em 0.75em;
+        position: absolute;
+        top: -10em;
+
+        background-color: #000;
+
+        color: #fff;
+        font-size: 1.125em;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.skiplinks a:hover,
+.skiplinks a:focus,
+.skiplinks a:active {
+        top: 0;
+}
