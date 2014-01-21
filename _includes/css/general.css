@@ -85,22 +85,26 @@ img {
     background-color: #f3fffc;
     padding: 1em 0.5em;
     position: bottom;
+    margin: 0 auto;
+
+    border: 1px solid red;
 }
 
 #main h1,
       p {
   text-align: center;
-  margin: 0 auto;
 }
 
 .reel {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
 }
 
 /*---------------------------------------------------BUY BUTTON */
 .btn {
+    float: right;
     padding: 0.7em 0.9em;
+
     background-color: #333;
     background-image: linear-gradient(to bottom, #33f, #339);
     border-radius: 8px;
@@ -149,9 +153,10 @@ a:active {
 }
 
 @media only screen and (min-width: 37em) {
-  #main .unit {
-    display: block;
-  }
+ /* #main .unit {
+    display: inline-block;
+    float: right;
+  }*/
 }
 
 /*---------------------------------------------------FEATURES*/

@@ -1,0 +1,30 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+.carousel {
+  position: relative;
+  padding-bottom: 52.6%;
+}
+
+.carousel img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.carousel-buttons {
+  position: absolute;
+  z-index: 100;
+}
+
+.carousel [data-state="current"] {
+  z-index: 100;
+}
+
+.carousel [data-state="incoming"] {
+  z-index: 101;
+}

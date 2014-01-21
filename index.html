@@ -2,27 +2,55 @@
 layout: default
 title: App home page
 ---
-<div class="grid">
+<div>
 
 <!--------------------------------------------------- MAIN -->
 
-    <div id="main" role="main" class="unit unit-s-1 unit-m-1 unit-l-1">
+  <div id="main" role="main" class="grid">
 
-        <h1 class="unit unit-s-1 unit-m-3-4 unit-l-2-3">Chronolog</h1>
-        <p class="unit unit-s-1 unit-m-3-4 unit-l-2-3">Time your tasks. Chronolog works seamlessly with you, the creative, to offer a fluid workflow while maintaining organized dockets.</p>
-
-        <img src="http://placehold.it/550x350" class="reel unit unit-s-1 unit-m-3-4 unit-l-2-3">
-        <a href="#" class="btn btn-buy">Download Now</a>
-
+    <div class="unit unit-s-hidden unit-m-1-2 unit-l-2-3">
+      <img src="http://placehold.it/550x350" >
     </div>
 
-<!---------------------------------------------------SCREENSHOTS -->
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+      <h1>Chronolog</h1>
+      <p>Time your tasks. Chronolog works seamlessly with you, the creative, to offer a fluid workflow while maintaining organized dockets.</p>
+      <a href="#" class="btn btn-buy">Download Now</a> <!--make a class to specifically show and hide for media queries and responsiveness-->
+    </div>
 
-    <div id="screenshots" class="unit unit-spacer unit-s-1 unit-m-3-4 unit-l-3-4">
+    <div class="unit unit-s-1 unit-m-hidden">
+      <img src="http://placehold.it/550x350" >
+    </div>
+<!--
+    <div class="unit unit-s-1 unit-m-hidden">
+      <a href="#" class="btn btn-buy">Download Now</a>
+    </div>
+-->
+  </div>
+
+<!---------------------------------------------------CAROUSEL -->
+
+    <div id="screenshots" class="grid">
        <ul>
          <li><img src="http://placehold.it/1000x350"></li>
        </ul>
     </div>
+
+      <div class="carousel">
+    <div class="items">
+      <img data-state="current" src="img/argyle-0.png" alt="">
+      <img src="img/art-0.jpg" alt="Porsche Large Data Website">
+      <img src="img/argyle-2.png" alt="">
+      <img src="img/argyle-3.png" alt="">
+      <img src="img/argyle-4.png" alt="">
+    </div>
+
+    <div class="carousel-buttons">
+      <button class="previous">Previous</button>
+      <button class="next">Next</button>
+    </div>
+
+  </div>
 
 
 <!---------------------------------------------------FEATURES -->
