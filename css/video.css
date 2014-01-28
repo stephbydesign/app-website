@@ -1,6 +1,6 @@
-html {
+/*html {
   background-color: #e2e2e2;
-}
+}*/
 
 dialog {
   border: 2px solid #000;
@@ -13,10 +13,10 @@ dialog::backdrop {
 }
 
 dialog + .backdrop {
-  background-color: rgba(255,0,0,0.5);
+  background-color: rgba(0,255,0,0.5);
 }
 
-.btn-close {
+#btn-close {
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -36,5 +36,4 @@ dialog + .backdrop {
 
 .video-thumbnail {
   background-image: url('img/video-thumbnail.jpg');
-  max-height: 300px;
 }
