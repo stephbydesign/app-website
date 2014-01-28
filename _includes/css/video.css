@@ -1,0 +1,39 @@
+/*html {
+  background-color: #e2e2e2;
+}*/
+
+dialog {
+  border: 2px solid #000;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5)
+}
+
+dialog::backdrop {
+  background-color: rgba(255,0,0,0.5);
+}
+
+dialog + .backdrop {
+  background-color: rgba(0,255,0,0.5);
+}
+
+#btn-close {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  font-weight: bold;
+  line-height: 0.6;
+  font-size: 1rem;
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  cursor: pointer;
+}
+
+.video-thumbnail {
+  background-image: url('img/video-thumbnail.jpg');
+}
