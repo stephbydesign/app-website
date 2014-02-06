@@ -1,8 +1,11 @@
 dialog {
   position: absolute;
-  left: 0; right: 0;
+  left: 0;
+  right: 0;
   margin: auto;
-  border: solid;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
   padding: 1em;
   background: white;
   color: black;
@@ -24,7 +27,7 @@ dialog[open] {
 
 .backdrop {
   position: fixed;
-  background: rgba(0,0,0,0.1);
+  background: rgba(255,255,0,0.5);
   top: 0;
   bottom: 0;
   left: 0;

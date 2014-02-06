@@ -1,0 +1,72 @@
+#main {
+  background-color: #fff;
+}
+
+.work li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.work img {
+    opacity: 0;
+    -webkit-transform: translateX(250px);
+}
+
+@-webkit-keyframes work-slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(250px);
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+.js-work-animate {
+  -webkit-animation: work-slide 1s ease-out 1 forwards;
+}
+
+.js-work-delay {
+  -webkit-animation-delay: 100ms;
+}
+
+#features {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio img {
+  width: 250px;
+  opacity: 0;
+}
+
+.js-portfolio-animate {
+  -webkit-animation: portfolio-fade 2s linear 1 forwards;
+}
+
+@-webkit-keyframes portfolio-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.js-portfolio-delay-1,
+.js-portfolio-delay-3,
+.js-portfolio-delay-5 {
+  -webkit-animation-delay: 100ms;
+}
+
+.js-portfolio-delay-2,
+.js-portfolio-delay-4,
+.js-portfolio-delay-6 {
+  -webkit-animation-delay: 200ms;
+}

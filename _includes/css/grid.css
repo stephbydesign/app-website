@@ -8,6 +8,12 @@
 .grid {
   word-spacing: -0.43em;
 }
+
+.flex-img {
+  display: block;
+  width: 100%;
+}
+
 .unit {
   display: inline-block;
   *display: inline;

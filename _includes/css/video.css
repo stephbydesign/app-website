@@ -1,24 +1,21 @@
-
-dialog {
-  border: 2px solid #000;
-  border-radius: 8px;
-  box-shadow: 1px 1px 10px rgba(0,0,0,0.5)
-}
-
 dialog::backdrop {
-  background-color: rgba(255,0,0,0.5);
+  background-color: rgba(255,255,0,0.5);
 }
 
 dialog + .backdrop {
   background-color: rgba(255,0,0,0.5);
 }
 
-#btn-close {
+#btn-open-1, #btn-open-2 {
+  border: none;
+  background-color: transparent;
+}
+
+#btn-close-1, #btn-close-2 {
   display: inline-block;
   width: 32px;
   height: 32px;
   border-radius: 16px;
-  border: 2px solid #fff;
   background-color: #000;
   color: #fff;
   box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
@@ -31,7 +28,8 @@ dialog + .backdrop {
   cursor: pointer;
 }
 
-.video-thumbnail {
-  background-image: url('img/video-thumbnail.jpg');
-  width: 100%;
+button {
+  background-color: #fff;
+  overflow: hidden;
+  float: left;
 }
