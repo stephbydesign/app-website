@@ -1,14 +1,14 @@
-var $praise = $('.testimonials');
+var $praise = $('.praise');
 
 // Automatically load the testimonials.json file as soon as the page loads
-var testimonialsData = $.ajax('testimonials.json', {
+var praiseData = $.ajax('testimonials.json', {
   dataType: 'json'
 });
 
-testimonialsData.done(function (data) {
-  var testimonials = Math.round( Math.random() * data.length - 1 );
+praiseData.done(function (data) {
+  var praise = Math.round( Math.random() * data.length - 1 );
 
-  $('.testimonials-praise').html(data[testimonials].praise);
-  $('.testimonials-name').html(data[testimonials].name);
-  $('.testimonials-position').html(data[testimonials].position);
+  $('.praise-testimonial').html(data[praise].testimonial);
+  $('.praise-name').html(data[praise].name);
+  $('.praise-position').html(data[praise].position);
     });
