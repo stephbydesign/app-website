@@ -1,12 +1,23 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+#screenshots {
+    display: block;
+    margin: 1em;
+}
+
+@media only screen and (min-width: 37em) {
+ /* #main .unit {
+    display: inline-block;
+    float: right;
+  }*/
+}
+
+.portfolio {
+  margin: 0;
+  padding: 0;
+}
 
 .carousel {
   position: relative;
-  padding-bottom: 52.6%;
+  padding-bottom: 60%;
 }
 
 .carousel img {

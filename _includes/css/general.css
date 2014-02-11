@@ -39,7 +39,7 @@ h1 {
   font-size: 1.25em;
 }
 
-ul {
+ul, li, {
   text-decoration: none;
   list-style-type: none;
   margin: 0;
@@ -81,11 +81,6 @@ img {
 
 #main p {
   text-align: center;
-}
-
-.reel {
-    display: inline-block;
-    margin: 0 auto;
 }
 
 /*---------------------------------------------------DOWNLOAD NOW BUTTON */
@@ -139,18 +134,8 @@ a:active {
 }
 
 
-/*---------------------------------------------------SCREENSHOTS */
-#screenshots {
-    display: block;
-    margin: 0 auto;
-}
+/*- See carousel.css---------------------------------SCREENSHOTS */
 
-@media only screen and (min-width: 37em) {
- /* #main .unit {
-    display: inline-block;
-    float: right;
-  }*/
-}
 
 /*- See animation.css -------------------------------FEATURES*/
 

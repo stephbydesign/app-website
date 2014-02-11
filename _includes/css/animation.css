@@ -11,6 +11,7 @@
 .work img {
     opacity: 0;
     -webkit-transform: translateX(250px);
+    -webkit-animation: work-slide 1s ease-out 1 forwards;
 }
 
 @-webkit-keyframes work-slide {
@@ -28,7 +29,7 @@
 }
 
 .js-work-animate {
-  -webkit-animation: work-slide 1s ease-out 1 forwards;
+
 }
 
 .js-work-delay {
@@ -42,12 +43,11 @@
 }
 
 .portfolio img {
-  width: 250px;
   opacity: 0;
 }
 
 .js-portfolio-animate {
-  -webkit-animation: portfolio-fade 2s linear 1 forwards;
+  -webkit-animation: portfolio-fade 1s linear 1 forwards;
 }
 
 @-webkit-keyframes portfolio-fade {
@@ -59,14 +59,34 @@
   }
 }
 
-.js-portfolio-delay-1,
+.js-portfolio-delay-1 {
+  -webkit-animation-delay: 100ms;
+}
+.js-portfolio-delay-2 {
+  -webkit-animation-delay: 200ms;
+}
+.js-portfolio-delay-3 {
+  -webkit-animation-delay: 300ms;
+}
+.js-portfolio-delay-4 {
+  -webkit-animation-delay: 100ms;
+}
+.js-portfolio-delay-5 {
+  -webkit-animation-delay: 200ms;
+}
+.js-portfolio-delay-6 {
+  -webkit-animation-delay: 300ms;
+}
+
+/*
 .js-portfolio-delay-3,
 .js-portfolio-delay-5 {
-  -webkit-animation-delay: 100ms;
+  -webkit-animation-delay: 300ms;
 }
 
 .js-portfolio-delay-2,
 .js-portfolio-delay-4,
 .js-portfolio-delay-6 {
-  -webkit-animation-delay: 200ms;
+  -webkit-animation-delay: 150ms;
 }
+*/
