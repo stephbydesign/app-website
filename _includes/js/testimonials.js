@@ -11,4 +11,4 @@ testimonialsData.done(function (data) {
   $('.testimonials-praise').html(data[testimonials].praise);
   $('.testimonials-name').html(data[testimonials].name);
   $('.testimonials-position').html(data[testimonials].position);
-    )};
+    });
