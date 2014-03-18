@@ -1,8 +1,20 @@
 .praise {
-  text-align: center;
-  color: #e2e2e2;
-  width: 200px;
+  padding: 10px;
   border: 1px solid #e2e2e2;
   border-radius: 4px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.praise-testimonial {
+  color: #666;
+}
+
+.praise-name {
+  font-size: .75rem;
+  color: #333;
+}
+
+.praise-position {
+  font-size: .75rem;
+  font-style: italic;
 }

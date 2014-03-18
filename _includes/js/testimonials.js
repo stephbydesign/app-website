@@ -1,4 +1,3 @@
-var $praise = $('.praise');
 
 // Automatically load the testimonials.json file as soon as the page loads
 var praiseData = $.ajax('testimonials.json', {
@@ -6,7 +5,7 @@ var praiseData = $.ajax('testimonials.json', {
 });
 
 praiseData.done(function (data) {
-  var praise = Math.round( Math.random() * data.length - 1 );
+  var praise = Math.round( Math.random() * (data.length - 1) );
 
   $('.praise-testimonial').html(data[praise].testimonial);
   $('.praise-name').html(data[praise].name);
